@@ -26,8 +26,6 @@ Technical specifications are created for each persona, including:
 - Stop rules
 - Edge-case boundaries
 
-These specifications are engineering documents, not marketing materials, and serve as the foundation for data generation.
-
 ### Conversation Generation
 
 Conversations are generated through two complementary methods:
