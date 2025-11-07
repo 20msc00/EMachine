@@ -246,10 +246,6 @@ A `persona_simulator_v2_rl` adapter is produced that maintains persona consisten
 
 Create a test set for each persona. For each response, send the persona spec, conversation history, and candidate response to a judge LLM (it can be chosen by searching last benchmarks for judge LLMs) with the prompt: "Score persona adherence (0-1), consistency (0-1), quality (0-1), and safety (pass/fail) with reasoning." Aggregate scores (mean, std, per-persona breakdown) and track consistency over 10+ turn conversations. Produce an evaluation report with quantitative metrics showing which personas perform best and where the model fails.
 
-### Result
-
-An evaluation report is produced with quantitative metrics showing which personas perform best and where the model fails. This enables data-driven improvements and model iteration.
-
 ---
 
 ## Summary
