@@ -1,4 +1,4 @@
-# Conversation Simulator (1-Day Hack)
+# Conversation Simulator
 
 ## Setup
 - Create a virtual environment: `.venv`
