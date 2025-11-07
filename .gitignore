@@ -1,0 +1,10 @@
+.venv
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+runs/
+live_dashboard/frontend/node_modules/
+live_dashboard/frontend/dist/

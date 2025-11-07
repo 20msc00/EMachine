@@ -1,0 +1,7 @@
+openai
+httpx
+python-dotenv
+pyyaml
+fastapi
+uvicorn
+websockets
