@@ -4,13 +4,11 @@
 
 **What's the more comprehensive way of building this (2 weeks) if you had access to finetune with custom SFT (Supervised Fine-Tuning)/RL-based data? How would you collect data for this task?**
 
-This document provides a complete answer to the above question, outlining a comprehensive pipeline for training a multi-persona simulation model using supervised fine-tuning (SFT) and reinforcement learning (RL) within a 2-week timeframe.
-
 ---
 
 ## Overview
 
-This document outlines a complete pipeline for training a multi-persona simulation model using supervised fine-tuning (SFT) and reinforcement learning (RL). The pipeline consists of four main phases: data collection and transformation, supervised fine-tuning, RL refinement, and evaluation.
+This document provides a complete answer to the above question, outlining a comprehensive pipeline for training a multi-persona simulation model using supervised fine-tuning (SFT) and reinforcement learning (RL) within a 2-week timeframe.
 
 ---
 
