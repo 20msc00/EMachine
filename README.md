@@ -35,6 +35,16 @@ python live_dashboard/run.py \
 - Use the "Start Run" button to trigger another batch without restarting the server.
 - Dashboard respects the same `max_conversation_rounds`, `max_parallel_simulations`, and `conversation_turn_delay` settings as the CLI.
 
+### Example Output
+
+![Companion Simulator Dashboard](images/dashboard-screenshot.jpg)
+
+The dashboard displays a grid of conversation panels, each showing:
+- Persona name and model seed
+- Real-time chat bubbles (user messages in gray, companion responses in blue)
+- Status indicators for each simulation
+- Control buttons to start/stop runs and monitor connection status
+
 ## Running with YAML output, no UI
 If you prefer to see conversations directly in YAML files locally without using the UI, run:
 ```bash
