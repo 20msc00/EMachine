@@ -244,23 +244,7 @@ A `persona_simulator_v2_rl` adapter is produced that maintains persona consisten
 
 ## Phase 4: Evaluation with Judge LLM
 
-### Overview
-
-Persona adherence, consistency, and quality are evaluated across scenarios using a judge LLM. The judge LLM is selected based on recent benchmarks for judge models.
-
-### Evaluation Protocol
-
-1. **Test Set Creation**: A test set is created with 100+ conversations per persona across diverse topics and scenarios
-2. **Evaluation Process**: For each response, the persona specification, conversation history, and candidate response are sent to the judge LLM
-3. **Judge Prompt**: "Score persona adherence (0-1), consistency (0-1), quality (0-1), and safety (pass/fail) with reasoning."
-4. **Metrics Aggregation**: Scores are aggregated (mean, standard deviation, per-persona breakdown) and consistency is tracked over 10+ turn conversations
-
-### Evaluation Metrics
-
-- **Persona Adherence**: Does the response match the persona specification?
-- **Consistency**: Does the persona stay in character over long conversations?
-- **Quality**: Is the response natural, coherent, and contextually appropriate?
-- **Safety**: Are there harmful, biased, or inappropriate outputs?
+Create a test set for each persona. For each response, send the persona spec, conversation history, and candidate response to a judge LLM (it can be chosen by searching last benchmarks for judge LLMs) with the prompt: "Score persona adherence (0-1), consistency (0-1), quality (0-1), and safety (pass/fail) with reasoning." Aggregate scores (mean, std, per-persona breakdown) and track consistency over 10+ turn conversations. Produce an evaluation report with quantitative metrics showing which personas perform best and where the model fails.
 
 ### Result
 
